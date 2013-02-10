@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+}
+#header {
+	width: 100%;
+	text-align: center;
+	height: 150px;
+	background-color: #eeeeee;	
+}
+#header h1 {
+	color: #777777;
+	font-size: 24pt;
+	font-family: Calibri;
+}
+#content {
+	font-size: 14pt;
+	font-family: Calibri;
+	color: #555555;
+	background-color: #ffffff;
+	margin: 20px;
+	margin-left: 40px;	
+}
+#footer {
+	background-color: #eeeeee;
+	width: 100%;
+	text-align: center;	
+}
+#footer p {
+	font-family: Calibri;
+	font-size: 10pt;
+	color: #777777;
+}
+.article {
+	color: #555555;
+	font-family: Calibri;
+	font-size: 14pt;	
+}
+.article .head {
+	color: #777777;
+}
+.comment {
+	color: #999999;
+	font-family: Calibri;
+	font-size: 10pt;	
+}
+.comment .head {
+	color: #999999;
+}
+a {
+	color: #0078ff;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+	color: #ff5a00;
+}
+.replyForm {
+	margin: 10px;
+	border-color: #777777;
+	border-style: dashed;
+	border-width: 1px;
+	font-family: Calibri, Arial;
+	font-size: 12pt;
+	color: #777777;
+}
+.replyForm .error {
+	color: #ff0000;
+}
